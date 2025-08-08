@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Image not available">
+  <defs>
+    <style>
+      .bg { fill: #f2f2f2; }
+      .frame { fill: none; stroke: #d0d0d0; stroke-width: 4; stroke-dasharray: 8 8; }
+      .icon { fill: #b0b0b0; }
+      .txt { fill: #9a9a9a; font-family: Arial, sans-serif; font-size: 28px; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="800" height="600" rx="8" ry="8"/>
+  <rect class="frame" x="40" y="40" width="720" height="520" rx="8" ry="8"/>
+  <g transform="translate(400 300)">
+    <path class="icon" d="M-120,-60 h240 a20,20 0 0 1 20,20 v80 a20,20 0 0 1 -20,20 h-240 a20,20 0 0 1 -20,-20 v-80 a20,20 0 0 1 20,-20 z"/>
+    <circle class="bg" cx="-65" cy="-10" r="18"/>
+    <path class="bg" d="M-110,40 l50,-55 45,50 40,-30 55,65 h-190z"/>
+    <path class="icon" d="M-70,-100 l140,140" stroke="#b0b0b0" stroke-width="12" stroke-linecap="round"/>
+    <path class="icon" d="M70,-100 l-140,140" stroke="#b0b0b0" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <text class="txt" x="400" y="560" text-anchor="middle">Image not available</text>
+</svg>
